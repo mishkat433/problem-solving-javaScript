@@ -8,6 +8,6 @@ function maxnumber_from_Array(array) {
     }
     return initial
 }
-const arr = [4, 5, 8, 24, 29, 25, -58, 250, 59]
-const result = maxnumber_from_Array(arr)
+const numbers = [4, 5, 8, 24, 29, 25, -58, 250, 59]
+const result = maxnumber_from_Array(numbers)
 console.log(result);
