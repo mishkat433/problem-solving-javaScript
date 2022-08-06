@@ -5,4 +5,4 @@ const stringRev = (str) => {
     console.log(join);
 }
 
-stringRev("mozilla")
+stringRev("mozilla firefox")
