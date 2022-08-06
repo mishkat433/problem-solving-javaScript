@@ -1,5 +1,5 @@
 function maxnumber_from_Array(array) {
-    let initial = 0;
+    let initial = array[0];
     for (let i = 0; i < array.length; i++) {
         const element = array[i];
         if (initial < array[i]) {
