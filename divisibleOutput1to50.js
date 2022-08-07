@@ -1,0 +1,24 @@
+
+
+const divisible_output = (nm) => {
+    for (let i = 1; i <= 50; i++) {
+        if (i % 3 === 0) {
+            console.log("foo");
+        }
+        else if (i % 5 === 0) {
+            console.log("bar");
+        }
+        else if (i % 3 === 0 && i % 5 === 0) {
+            console.log("foobar");
+        }
+        else {
+            console.log(i);
+        }
+
+    }
+
+
+}
+
+const check = divisible_output()
+// console.log(check);
