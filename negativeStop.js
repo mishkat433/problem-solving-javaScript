@@ -1,4 +1,4 @@
-const nevativeStop = (ngt) => {
+const negativeStop = (ngt) => {
     const store = []
     for (let i = 0; i < ngt.length; i++) {
         if (ngt[i] < 0) {
@@ -7,10 +7,9 @@ const nevativeStop = (ngt) => {
         else {
             store.push(ngt[i])
         }
-
     }
     return store;
 }
 
-const negativeNumberCheck = nevativeStop([45, 0, 48, 9, 17, 19, -15, 89.2, 31, 5])
+const negativeNumberCheck = negativeStop([45, 0, 48, 9, 17, 19, -15, 89.2, 31, 5])
 console.log(negativeNumberCheck);
